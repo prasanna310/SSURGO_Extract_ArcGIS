@@ -1,0 +1,1588 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+        <pubdate>20131216</pubdate>
+        <title>
+Soil Survey Geographic (SSURGO) database for Salt Lake Area,
+Utah
+</title>
+        <pubinfo>
+          <pubplace>Fort Worth, Texas</pubplace>
+          <publish>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</publish>
+        </pubinfo>
+        <othercit>ut612</othercit>
+        <onlink>http://websoilsurvey.nrcs.usda.gov</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+This data set is a digital soil survey and generally is the most
+detailed level of soil geographic data developed by the National
+Cooperative Soil Survey. The information was prepared by digitizing
+maps, by compiling information onto a planimetric correct base
+and digitizing, or by revising digitized maps using remotely
+sensed and other information.
+
+This data set consists of georeferenced digital map data and
+computerized attribute data. The map data are in a soil survey area
+extent format and include a detailed, field verified inventory
+of soils and miscellaneous areas that normally occur in a repeatable
+pattern on the landscape and that can be cartographically shown at
+the scale mapped. A special soil features layer (point and line
+features) is optional. This layer displays the location of features
+too small to delineate at the mapping scale, but they are large
+enough and contrasting enough to significantly influence use and
+management. The soil map units are linked to attributes in the
+National Soil Information System relational database, which gives
+the proportionate extent of the component soils and their properties.
+</abstract>
+      <purpose>
+SSURGO depicts information about the kinds and distribution of
+soils on the landscape. The soil map and data used in the SSURGO
+product were prepared by soil scientists as part of the National
+Cooperative Soil Survey.
+</purpose>
+      <supplinf>
+Digital versions of hydrography, cultural features, and other
+associated layers that are not part of the SSURGO data set may be
+available from the primary organization listed in the Point of
+Contact.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20020307</begdate>
+          <enddate>20131216</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-112.251</westbc>
+        <eastbc>-111.593</eastbc>
+        <northbc>40.922</northbc>
+        <southbc>40.414</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>soil survey</themekey>
+        <themekey>soils</themekey>
+        <themekey>Soil Survey Geographic</themekey>
+        <themekey>SSURGO</themekey>
+      </theme>
+      <place>
+        <placekt>USGS Geographic Names Information System (GNIS)</placekt>
+        <placekey>Utah</placekey>
+        <placekey>Salt Lake County</placekey>
+        <placekey>Saltair NE Quadrangle</placekey>
+        <placekey>Farmington Quadrangle</placekey>
+        <placekey>Plug Peak SE Quadrangle</placekey>
+        <placekey>Antelope Island South Quadrangle</placekey>
+        <placekey>Saltair Quadrangle</placekey>
+        <placekey>Salt Lake City North Quadrangle</placekey>
+        <placekey>Fort Douglas Quadrangle</placekey>
+        <placekey>Mountain Dell Quadrangle</placekey>
+        <placekey>Big Dutch Hollow Quadrangle</placekey>
+        <placekey>Farnsworth Peak Quadrangle</placekey>
+        <placekey>Magna Quadrangle</placekey>
+        <placekey>Salt Lake City South Quadrangle</placekey>
+        <placekey>Sugar House Quadrangle</placekey>
+        <placekey>Mount Aire Quadrangle</placekey>
+        <placekey>Park City West Quadrangle</placekey>
+        <placekey>Bingham Canyon Quadrangle</placekey>
+        <placekey>Lark Quadrangle</placekey>
+        <placekey>Midvale Quadrangle</placekey>
+        <placekey>Draper Quadrangle</placekey>
+        <placekey>Lowe Peak Quadrangle</placekey>
+        <placekey>Tickville Spring Quadrangle</placekey>
+        <placekey>Jordan Narrows Quadrangle</placekey>
+        <placekey>Lehi Quadrangle</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>
+The U.S. Department of Agriculture, Natural Resources Conservation
+Service, should be acknowledged as the data source in products
+derived from these data.
+
+This data set is not designed for use as a primary regulatory tool
+in permitting or citing decisions, but may be used as a reference
+source. This is public information and may be interpreted by
+organizations, agencies, units of government, or others based on
+needs; however, they are responsible for the appropriate
+application. Federal, State, or local regulatory bodies are not to
+reassign to the Natural Resources Conservation Service any
+authority for the decisions that they make. The Natural Resources
+Conservation Service will not perform any evaluations of these maps
+for purposes related solely to State or local regulatory programs.
+
+Photographic or digital enlargement of these maps to scales greater
+than at which they were originally mapped can cause misinterpretation
+of the data. If enlarged, maps do not show the small areas of
+contrasting soils that could have been shown at a larger scale. The
+depicted soil boundaries, interpretations, and analysis derived from
+them do not eliminate the need for onsite sampling, testing, and
+detailed study of specific sites for intensive uses. Thus, these data
+and their interpretations are intended for planning purposes only.
+Digital data files are periodically updated. Files are dated, and
+users are responsible for obtaining the latest version of the data.
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Agriculture, Natural Resources Conservation Service</cntorg>
+        </cntorgp>
+        <cntpos>State Soil Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>NRCS</address>
+          <address>Federal Building, Room 4010</address>
+          <address>125 South State</address>
+          <city>Salt Lake City</city>
+          <state>UT</state>
+          <postal>84138-1100</postal>
+        </cntaddr>
+        <cntvoice>801-524-4574</cntvoice>
+        <cnttdd>800-877-8339</cnttdd>
+        <cntfax>801-524-4403</cntfax>
+        <cntemail>Mike.Domeier@ut.usda.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The attribute accuracy is tested by manual
+comparison of the source with hard copy plots and/or symbolized
+display of the map data on an interactive computer graphic system.
+Selected attributes that cannot be visually verified on plots or
+on screen are interactively queried and verified on screen. In
+addition, the attributes are tested against a master set of valid
+attributes. All attribute data conform to the attribute codes in
+the signed classification and correlation document and amendment(s).
+</attraccr>
+    </attracc>
+    <logic>
+Certain node/geometry and topology GT- polygon/chain relationships
+are collected or generated to satisfy topological requirements
+(the GT-polygon corresponds to the soil delineation). Some of these
+requirements include: chains must begin and end at nodes, chains
+must connect to each other at nodes, chains do not extend through
+nodes, left and right GT-polygons are defined for each chain
+element and are consistent throughout, and the chains representing
+the limits of the file are free of gaps. The tests of logical
+consistency are performed using vendor software. All internal
+polygons are tested for closure with vendor software and are checked
+on hard copy plots. All data are checked for common soil lines (i.e.,
+adjacent polygons with the same label). Edge locations generally do
+not deviate from centerline to centerline by more than 0.01 inch.
+The boundary of this survey is matched to the adjacent SSURGO
+certified surveys of Davis-Weber Area, Utah; Morgan Area, Utah -
+Morgan County and Part of Weber County; Summit Area, Utah, Parts of
+Summit, Salt Lake, and Wasatch Counties; Utah County, Utah - Central
+Part; Fairfield-Nephi Area, Utah; and Toole Area, Utah - Tooele County and Parts of Box Elder,
+Davis and Juab Counties, Utah White Pine and Elko Counties, Nevada.
+Feature edges and labels do not match.
+</logic>
+    <complete>
+A map unit is a collection of areas defined and named in terms of
+their soil components or miscellaneous areas or both. Each map
+unit differs in some respect from all others in a survey area and
+each map unit has a symbol that uniquely identifies the map unit
+on a soil map. Each individual area, point, or line so identified
+on the map is a delineation.
+
+Soil Scientists identify small areas of soils or miscellaneous areas
+that have properties and behavior significantly different than the
+named soils in the surrounding map unit. These minor components
+may be indicated as special features. If they have a minimal effect
+on use and management, or could not be precisely located, they may
+not be indicated on the map.
+
+A map unit has specified kinds of soils or miscellaneous areas
+(map unit components), each with a designated range in
+proportionate extent. Map units include one or more kinds of soil
+or miscellaneous area. Miscellaneous areas are areas that have little
+or no recognizable soil.
+
+Specific National Cooperative Soil Survey standards and procedures
+were used in the classification of soils, design and name of map
+units, and location of special soil features. These standards are
+outlined in Agricultural Handbook 18, Soil Survey Manual, 1993,
+USDA, NRCS; Agricultural Handbook 436, Soil Taxonomy, 1995,
+USDA, NRCS; and all Amendments; Keys to Soil Taxonomy,
+(current issue) USDA, NRCS; National Soil Survey
+Handbook, title 430-VI,(current issue) USDA, NRCS.
+
+The actual composition and interpretive purity of the map unit
+delineations were based on data collected by scientists during
+the course of preparing the soil maps. Adherence to National
+Cooperative Soil Survey standards and procedures is based on
+peer review, quality control, and quality assurance. Quality
+control is outlined in the memorandum of understanding for the
+soil survey area and in documents that reside with the Natural
+Resources Conservation Service state soil scientist. Four kinds
+of map units are used in soil surveys: consociations, complexes,
+associations, and undifferentiated groups.
+
+Consociations - Consociations are named for the dominant soil.
+In a consociation, delineated areas use a single name from the
+dominant component in the map unit. Dissimilar components are
+minor in extent. The soil component in a consociation may be
+identified at any taxonomic level. Soil series is the lowest
+taxonomic level. A consociation that is named as a miscellaneous
+area is dominantly that kind of area and minor components do not
+significantly affect the use of the map unit. The total amount of
+dissimilar inclusions of other components in a map unit generally
+does not exceed about 15 percent if limiting and 25 percent if
+nonlimiting. A single component of a dissimilar limiting inclusion
+generally does not exceed 10 percent if very contrasting.
+
+Complexes and associations - Complexes and associations consist
+of two or more  dissimilar components that occur in a regularly
+repeating pattern. The total amount of other dissimilar components
+is minor extent. The following arbitrary rule determines whether
+complex or association is used in the name. The major components
+of an association can be separated at the scale of mapping. In
+either case, because the major components are sufficiently different
+in morphology or behavior, the map unit cannot be called a
+consociation. In each delineation of a complex or an association,
+each major component is normally present though their proportions
+may vary appreciably from one delineation to another. The total
+amount of inclusions in a map unit that are dissimilar to any of
+the major components does not exceed 15 percent if limiting and
+25 percent if nonlimiting. A single kind of dissimilar limiting
+inclusion usually does not exceed 10 percent.
+
+Undifferentiated groups - Undifferentiated groups consist of two
+or more components that are not consistently associated
+geographically and, therefore, do not always occur together in
+the same map delineation. These components are included in the
+same named map unit because their use and management are the same
+or very similar for common uses. Generally they are grouped together
+because some common feature, such as steepness, stoniness, or
+flooding, determines their use and management. If two or more
+additional map units would serve no useful purpose, they may be
+included in the same unit. Each delineation has at least one of the
+major components, and some may have all of them. The same principles
+regarding the proportion of minor components that apply to
+consociations also apply to undifferentiated groups. The same
+principles regarding proportion of inclusion apply to
+undifferentiated groups as to consociations.
+
+Minimum documentation consists of three complete soil profile
+descriptions that are collected for each soil added to the legend,
+one additional per 3,000 acres mapped; three 10 observation
+transects for each map unit, one additional 10 point transect per
+3,000 acres.
+
+A defined standard or level of confidence in the interpretive
+purity of the map unit delineations is attained by adjusting the
+kind and intensity of field investigations. Field investigations
+and data collection are carried out in sufficient detail to name
+map units and to identify accurately and consistently areas of
+about 5 acres in areas of 2nd order survey, and about 10 acres in
+areas of 3rd order survey.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The accuracy of these digital data is based upon their
+compilation to base maps that meet National Map
+Accuracy Standards at a scale of 1 inch equals 1,000
+feet. The difference in positional accuracy between the
+soil boundaries and special soil features locations in the
+field and their digitized map locations is unknown. The
+locational accuracy of soil delineations on the ground varies
+with the transition between map units.
+
+For example, on long gently sloping landscapes the transition
+occurs gradually over many feet. Where landscapes change
+abruptly from steep to level, the transition will be very
+narrow. Soil delineation boundaries and special soil features
+generally were digitized within 0.01 inch of their locations on
+the digitizing source. The digital map elements are edge matched
+between data sets. The data along each quadrangle edge are
+matched against the data for the adjacent quadrangle. Edge
+locations generally do not deviate from centerline to centerline
+by more than 0.01 inch.
+</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Soil Conservation
+Service
+</origin>
+            <pubdate>1974</pubdate>
+            <title>Soil Survey of Salt Lake Area, Utah</title>
+            <geoform>atlas</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Government Printing Office</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>20000</srcscale>
+        <typesrc>paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1974</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>SCS1</srccitea>
+        <srccontr>
+information for soil map unit delineations,
+special soil feature locations, and data on soil properties
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>1973-1977</pubdate>
+            <title>multiple orthophotographs</title>
+            <geoform>remote sensing image</geoform>
+            <pubinfo>
+              <pubplace>Denver, Colorado</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>stable-base material</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1977</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>USGS1</srccitea>
+        <srccontr>compilation base imagery</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>annotated overlays</title>
+            <geoform>map</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>stable-base material</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1999</begdate>
+              <enddate>2001</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>compilation dates</srccurr>
+        </srctime>
+        <srccitea>NRCS1</srccitea>
+        <srccontr>compilation base / scanning source</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>1955-1991</pubdate>
+            <title>multiple 7.5 minute topographic quadrangles</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Menlo Park, California</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>stable-base material</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2001</begdate>
+              <enddate>2001</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>USGS2</srccitea>
+        <srccontr>compilation base reference</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>digitized soil survey of Salt Lake Area, Utah</title>
+            <geoform>map</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2001</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>digitizing date</srccurr>
+        </srctime>
+        <srccitea>NRCS2</srccitea>
+        <srccontr>ARC/INFO coverage digital files</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>1998</pubdate>
+            <title>
+Soil Survey Geographic (SSURGO) database for Tooele
+Area, Utah - Toole County and Parts of Box Elder, Davis, and
+Juab Counties, Utah White Pine and Elko Counties, Nevada
+</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Fort Worth, Texas</pubplace>
+              <publish>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service, National Cartography and Geospatial
+Center
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1998</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS3</srccitea>
+        <srccontr>
+certified SSURGO data used for survey boundary
+edge matching
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>1999</pubdate>
+            <title>
+Soil Survey Geographic (SSURGO) database for Utah
+County, Utah - Central Part
+</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Fort Worth, Texas</pubplace>
+              <publish>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service, National Cartography and Geospatial
+Center
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1999</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS4</srccitea>
+        <srccontr>
+certified SSURGO data used for survey boundary
+edge matching
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>2000</pubdate>
+            <title>
+Soil Survey Geographic (SSURGO) database for Davis-Weber
+Area, Utah
+</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Fort Worth, Texas</pubplace>
+              <publish>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service, National Cartography and Geospatial
+Center
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS5</srccitea>
+        <srccontr>
+certified SSURGO data used for survey boundary
+edge matching
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>2000</pubdate>
+            <title>
+Soil Survey Geographic (SSURGO) database for
+Fairfield-Nephi Area, Utah
+</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Fort Worth, Texas</pubplace>
+              <publish>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service, National Cartography and Geospatial
+Center
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS6</srccitea>
+        <srccontr>
+certified SSURGO data used for survey boundary
+edge matching
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>2001</pubdate>
+            <title>
+Soil Survey Geographic (SSURGO) database for Morgan
+Area, Utah - Morgan County and Part of Weber County
+</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Fort Worth, Texas</pubplace>
+              <publish>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service, National Cartography and Geospatial
+Center
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2001</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS7</srccitea>
+        <srccontr>
+certified SSURGO data used for survey boundary
+edge matching
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>2004</pubdate>
+            <title>National Soil Information System (NASIS) data base</title>
+            <geoform>unknown</geoform>
+            <pubinfo>
+              <pubplace>Fort Collins, Colorado</pubplace>
+              <publish>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>database</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2004</begdate>
+              <enddate>2004</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NASIS</srccitea>
+        <srccontr>attribute (tabular) information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>2004</pubdate>
+            <title>
+Soil Survey Geographic (SSURGO) database for Salt Lake
+Area, Utah
+</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Fort Worth, Texas</pubplace>
+              <publish>
+U. S. Department of Agriculture, Natural Resources
+Conservation Service
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2004</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS8</srccitea>
+        <srccontr>certified SSURGO data used for revisions</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>2004</pubdate>
+            <title>
+Soil Survey Geographic (SSURGO) database for Summit
+Area, Utah, Parts of Summit, Salt Lake and Wasatch Counties
+</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Fort Worth, Texas</pubplace>
+              <publish>
+U. S. Department of Agriculture, Natural Resources
+Conservation Service
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2004</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS9</srccitea>
+        <srccontr>
+certified SSURGO data used for survey boundary
+edge matching
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>20051208</pubdate>
+            <title>
+Soil Survey Geographic (SSURGO) database for Salt Lake
+Area, Utah
+</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Fort Worth, Texas</pubplace>
+              <publish>
+U. S. Department of Agriculture, Natural Resources
+Conservation Service
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2005</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS10</srccitea>
+        <srccontr>certified SSURGO data used for revisions</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <title>multiple 7.5 minute digital orthophotographic quadrangles</title>
+            <geoform>remote sensing image</geoform>
+            <pubinfo>
+              <pubplace>Salt Lake City, Utah</pubplace>
+              <publish>
+State of Utah, Division of Information Technology
+Services, Automated Geographic Reference Center (AGRC)
+</publish>
+            </pubinfo>
+            <othercit>downloaded from Utah AGRC website</othercit>
+            <onlink>http://agrc.its.state.ut.us/</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <mdattim>
+              <sngdate>
+                <caldate>1993</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>1997</caldate>
+              </sngdate>
+            </mdattim>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>USGS3</srccitea>
+        <srccontr>
+base material for digital review and editing
+of soil lines
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>unknown</pubdate>
+            <title>multiple 7.5 minute digital raster graphics</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Salt Lake City, Utah</pubplace>
+              <publish>
+State of Utah, Division of Information Technology
+Services, Automated Geographic Reference Center (AGRC)
+</publish>
+            </pubinfo>
+            <othercit>downloaded from Utah AGRC website</othercit>
+            <onlink>http://agrc.its.state.ut.us/</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1962</begdate>
+              <enddate>1985</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>
+publication date of USGS
+topographic quadrangles
+</srccurr>
+        </srctime>
+        <srccitea>USGS4</srccitea>
+        <srccontr>
+base material for delineating Great Salt Lake
+historic level (4200 ft)
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Aeronautics and Space Administration</origin>
+            <pubdate>2003</pubdate>
+            <title>Landsat 7 satellite imagery</title>
+            <edition>P38R31, P38R32</edition>
+            <geoform>remote sensing image</geoform>
+            <pubinfo>
+              <pubplace>Logan, Utah</pubplace>
+              <publish>
+Utah State University, Intermountain Region Digital
+Image Archive Center (IRDIAC)
+</publish>
+            </pubinfo>
+            <othercit>downloaded from IRDIAC website</othercit>
+            <onlink>http://earth.gis.usu.edu/</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>1000000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20030521</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NASA1</srccitea>
+        <srccontr>
+source material for supervised classification;
+resulting classification used as base material for digital review
+and editing of soil lines
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture,
+Natural Resources Conservation Service
+</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>Arc shapefiles for the survey of Salt Lake Area, Utah</title>
+            <geoform>digital vector data</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2009</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>2009</srccurr>
+        </srctime>
+        <srccitea>NRCS11</srccitea>
+        <srccontr>
+digital information containing area and special
+soil features for evaluation
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>2009</pubdate>
+            <title>
+National Soil Information System (NASIS) database for
+Salt Lake Area, Utah
+</title>
+            <geoform>tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>Fort Collins, Colorado</pubplace>
+              <publish>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service, Information Technology Center
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2009</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>export certification date</srccurr>
+        </srctime>
+        <srccitea>NRCS12</srccitea>
+        <srccontr>map unit legend used for comparison to spatial map unit labels</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>Region 8 soils geodatabase</title>
+            <geoform>file geodatabase</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>vector digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2006</begdate>
+              <enddate>2012</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>SSURGO publication date</srccurr>
+        </srctime>
+        <srccitea>NRCS13</srccitea>
+        <srccontr>Source of digital revision</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Field procedures for second and third order soil survey were
+utilized to plot soil boundaries by field observations and by
+interpreting remotely sensed data. Boundaries were verified at
+closely spaced intervals and the soils in each delineation were
+identified by traversing and transecting the landscape. Soil
+scientists described and sampled the soils and analyzed samples
+in the laboratory. The classification and correlation of map unit
+names was finalized in August 1967, and the Soil Survey of Salt
+Lake Area, Utah was published in 1974 at a scale of 1:20,000.
+</procdesc>
+        <srcused>SCS1, USGS1</srcused>
+        <procdate>1974</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+Information on field maps was compiled to annotated overlays,
+using 1:24,000 orthophoto quadrangles and 7.5 minute topographic
+quadrangles as a base reference.
+</procdesc>
+        <srcused>USGS1, USGS2, NRCS1</srcused>
+        <procdate>2001</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+Annotated overlays were raster scanned and converted to vector
+format using R2V software for Windows NT. Soils and special
+feature symbols were hand digitized from 1:24,000 scale annotated
+overlays. Digital processing and editing were performed using
+ARC/INFO version 7.2.1. The soil survey boundary was edge matched
+to the adjacent SSURGO certified soil survey boundaries of
+Davis-Weber Area, Utah; Utah County, Utah - Central Part;
+Fairfield-Nephi Area, Utah; Morgan Area, Utah - Morgan County
+and Part of Weber County; Toole Area, Utah - Tooele County and
+Parts of Box Elder, Davis and Juab Counties, Utah, White Pine and
+Elko Counties, Nevada. Custom AMLs were operated for error
+identification and the data were written to DLG-3 Optional
+format. Cartographic technicians at the NRCS Regional Digitizing
+Center in Salina, Kansas completed the digitizing work and review
+for adherence to SSURGO standards.
+</procdesc>
+        <srcused>
+NRCS1, NRCS2, NRCS3, NRCS4,
+NRCS5, NRCS6, NRCS7
+</srcused>
+        <procdate>2001</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+In the total acres for Salt Lake Area, Utah, there is a
+discrepancy of approximately 61,260 acres between the spatial
+acres (399,381) and the NASIS acres (460,641). This discrepancy
+was caused by a portion of the Great Salt Lake not being included
+into the spatial area and the map unit symbols "PT" and "UL" were
+calculated into the NASIS acres but not the spatial acres.
+</procdesc>
+        <srcused>NRCS2</srcused>
+        <procdate>2001</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The National Soil Information System database was developed by
+NRCS soil scientists according to national standards and
+specifications.
+</procdesc>
+        <srcused>NRCS2</srcused>
+        <procdate>2001</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist
+or delegate, upon completion of data quality verification,
+determined that the tabular data should be released for official
+use. A selected set of map units and components in the soil
+survey legend was copied to a staging database, and rating values
+for selected interpretations were generated. The list of selected
+interpretations is stored in the database table named sainterp.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20040209</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist
+or delegate verified that the labels on the digitized soil map
+units link to map units in the tabular database, and certified
+the joined data sets for release to the Soil Data Warehouse. A
+system assigned version number and date stamp were added and the
+data were copied to the data warehouse. The tabular data for the
+map units and components were extracted from the data warehouse
+and reformatted into the soil data delivery data model, then
+stored in the Soil Data Mart. The spatial data were copied to the
+Soil Data Mart without change.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20040209</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The spatial data for this survey area have been revised to
+add two soil map unit delineations. A polygon labeled 'UL' was
+added to the Salt Lake City North, Fort Douglas, Salt Lake City
+South and Sugar House quadrangles. A polygon labeled 'PT' was
+added to the Bingham Canyon and Lark quadrangles. Also during
+this revision, the extent of the soil survey boundary was matched
+to that of the adjacent SSURGO certified survey of Summit Area,
+Utah, Parts of Summit, Salt Lake and Wasatch Counties. Editing
+and review for adherence to SSURGO standards were done by
+cartographic staff at the NRCS Regional Digitizing Center in
+Salina, Kansas, using ArcGIS version 8.3. The certified data were
+uploaded to the NRCS Soil Data Warehouse for archiving and
+distribution.
+</procdesc>
+        <srcused>NRCS8, NRCS9</srcused>
+        <procdate>2004</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist or
+delegate, upon completion of data quality verification, determined
+that the tabular data should be released for official use. A
+selected set of map units and components in the soil survey legend was
+copied to a staging database, and rating values for selected
+interpretations were generated. The list of selected interpretations is
+stored in the database table named sainterp.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20041220</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist or
+delegate verified that the labels on the digitized soil map units
+link to map units in the tabular database, and certified the joined
+data sets for release to the Soil Data Warehouse. A system assigned
+version number and date stamp were added and the data were copied to
+the data warehouse. The tabular data for the map units and components
+were extracted from the data warehouse and reformatted into the soil
+data delivery data model, then stored in the Soil Data Mart. The spatial
+data were copied to the Soil Data Mart without change.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20041228</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist or
+delegate, upon completion of data quality verification, determined
+that the tabular data should be released for official use. A
+selected set of map units and components in the soil survey legend was
+copied to a staging database, and rating values for selected
+interpretations were generated. The list of selected interpretations is
+stored in the database table named sainterp.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20051207</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist or
+delegate verified that the labels on the digitized soil map units
+link to map units in the tabular database, and certified the joined
+data sets for release to the Soil Data Warehouse. A system assigned
+version number and date stamp were added and the data were copied to
+the data warehouse. The tabular data for the map units and components
+were extracted from the data warehouse and reformatted into the soil
+data delivery data model, then stored in the Soil Data Mart. The spatial
+data were copied to the Soil Data Mart without change.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20051208</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+Landsat scenes from P38R31 and P38R32, May 21, 2003 were mosaicked
+together, and the area of wet and saline soils adjacent to the
+Great Salt Lake was subset from the mosaicked image. A supervised
+classification of land cover types was performed using the fuzzy
+classification algorithm and the fuzzy convolution filter options
+in ERDAS Imagine. Land cover types were related to soil types. The
+resulting classification was field validated with an accuracy
+assessment, and used as base material for updating soil lines. All
+image processing and analysis was completed by a soil scientist.
+</procdesc>
+        <srcused>NRCS10, NASA1</srcused>
+        <procdate>2003</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The data were imported into ArcMap by a soil scientist in the Utah
+State University (USU) Soil Survey Satellite Office in Logan,
+Utah. Soil lines were edited on screen in ArcMap, referencing the
+digital orthophoto quadrangles, digital raster graphics, and
+Landsat 7 supervised classification. Only the portion of the
+survey area adjacent to the Great Salt Lake was updated. All new
+map units in the updated portion of the survey area were given
+symbols containing all capital letters. Adjustments were made to
+the soil lines and labels along the survey boundary in the updated
+portion of the survey area by an NRCS soil scientist to achieve a
+perfect join with surrounding Utah soil survey areas. Labeling and
+error checking were done in ArcMap. Adjustments to the survey area
+boundary were made to include previously excluded parts of the
+Great Salt Lake in the survey area. A personal geodatabase was
+submitted to the NRCS Kansas Digitizing Unit for SSURGO review.
+</procdesc>
+        <srcused>NRCS 10, USGS3, USGS4, NASA1</srcused>
+        <procdate>2006</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+SSURGO review was performed by cartographic staff at the NRCS
+Digitizing Unit in Salina, Kansas. The files were evaluated using
+ArcGIS version 8.3 and the January 2006 SSURGO Evaluation AMLs
+provided by NCGC. The certified data were uploaded to the NRCS
+Soil Data Warehouse for archiving and distribution.
+</procdesc>
+        <srcused>NRCS10</srcused>
+        <procdate>2006</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist or
+delegate, upon completion of data quality verification, determined
+that the tabular data should be released for official use. A
+selected set of map units and components in the soil survey legend was
+copied to a staging database, and rating values for selected
+interpretations were generated. The list of selected interpretations is
+stored in the database table named sainterp.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20061211</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil
+Scientist or delegate verified that the labels on the digitized soil map
+units link to map units in the tabular database, and certified the joined
+data sets for release to the Soil Data Warehouse. A system assigned version
+number and date stamp were added and the data were copied to the data warehouse.
+Data elements were updated, and validated in 2006 to accommodate current modeling
+needs. The tabular data for the map units and components were extracted from the
+data warehouse and reformatted into the soil data delivery data model, then stored
+in the Soil Data Mart. The spatial data were copied to the Soil Data Mart without change.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20061211</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The tabular data were extracted from the data mart without change.
+The spatial data's coordinate system was transformed to UTM Zone 12, Northern Hemisphere
+(NAD 83) using ESRI ArcObjects 8.3 "ConvertFeatureClass" and exported to an ESRI shapefile.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20091019</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The survey-wide Arc shapefiles from the online SSURGO data were
+imported to ARC/INFO 9.2 by certification staff at the Montana
+Digitizing Unit. Evaluation macros of June 2004 were applied to the
+data. Map unit labels were compared to an approved map unit legend
+from the National Soil Information System data base. ArcGIS was
+used to join to adjacent survey boundaries and verify previous
+adjacent survey joins. The data were uploaded to the soil data
+warehouse staging server.
+</procdesc>
+        <srcused>NRCS11, NRCS12</srcused>
+        <procdate>20091019</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist or
+delegate, upon completion of data quality verification, determined
+that the tabular data should be released for official use. A
+selected set of map units and components in the soil survey legend was
+copied to a staging database, and rating values for selected
+interpretations were generated. The list of selected interpretations is
+stored in the database table named sainterp.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20100210</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist or
+delegate verified that the labels on the digitized soil map units
+link to map units in the tabular database, and certified the joined
+data sets for release to the Soil Data Warehouse. A system assigned
+version number and date stamp were added and the data were copied to
+the data warehouse. The tabular data for the map units and components
+were extracted from the data warehouse and reformatted into the soil
+data delivery data model, then stored in the Soil Data Mart. The spatial
+data were copied to the Soil Data Mart without change.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20100210</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The spatial data for the Soil Survey of Salt Lake Area, Utah
+was downloaded from the Soil Data Mart on October 15, 2012.  The
+individual shapefiles were appended into a geodatabase for Region 8.
+The data were processed in ARCGIS 10.1 using a topology object with
+a 0.1 meter cluster tolerance for the purpose of eliminating gaps and
+overlaps within the Region 8 soils geodatabase.  Individual soil
+survey area data were exported as shapefiles from the regional
+geodatabase.  A datum transformation from NAD83 to WGS84 using the
+NAD_1983_To_WGS_1984_1 datum transformation method was applied to
+the data.  The data were checked with the SSURGO Evaluation scripts
+provided by U.S. Department of Agriculture, Natural Resources
+Conservation Service. The shapefiles were then uploaded to the
+soil data warehouse for archival and distribution.
+</procdesc>
+        <srcused>NRCS13</srcused>
+        <procdate>20130806</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist or
+delegate, upon completion of data quality verification, determined
+that the tabular data should be released for official use. A
+selected set of map units and components in the soil survey legend was
+copied to a staging database, and rating values for selected
+interpretations were generated. The list of selected interpretations is
+stored in the database table named sainterp.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20131216</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist or
+delegate verified that the labels on the digitized soil map units
+link to map units in the tabular database, and certified the joined
+data sets for release to the Soil Data Warehouse. A system assigned
+version number and date stamp were added and the data were copied to
+the data warehouse. The tabular data for the map units and components
+were extracted from the data warehouse and reformatted into the soil
+data delivery data model, then stored in the Soil Data Mart. The spatial
+data were copied to the Soil Data Mart without change.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20131216</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist or
+delegate, upon completion of data quality verification, determined
+that the tabular data should be released for official use. A
+selected set of map units and components in the soil survey legend was
+copied to a staging database, and rating values for selected
+interpretations were generated. The list of selected interpretations is
+stored in the database table named sainterp.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20140805</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Natural Resources Conservation Service State Soil Scientist or
+delegate verified that the labels on the digitized soil map units
+link to map units in the tabular database, and certified the joined
+data sets for release to the Soil Data Warehouse. A system assigned
+version number and date stamp were added and the data were copied to
+the data warehouse. The tabular data for the map units and components
+were extracted from the data warehouse and reformatted into the soil
+data delivery data model, then stored in the Soil Data Mart. The spatial
+data were copied to the Soil Data Mart without change.
+</procdesc>
+        <srcused>NASIS</srcused>
+        <procdate>20140805</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000001</latres>
+        <longres>0.0000001</longres>
+        <geogunit>decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>World Geodetic System 1984</horizdn>
+        <ellips>World Geodetic System 1984</ellips>
+        <semiaxis>6378137.00000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Special Soil Features</enttypl>
+        <enttypd>
+Special Soil Features represent soil, miscellaneous area, or landform
+features that are too small to be digitized as soil delineations
+(area features).
+</enttypd>
+        <enttypds>Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Special Soil Features Codes</attrlabl>
+        <attrdef>
+Special Soil Features labels represent specific Special Soil
+Features. These features are identified with a descriptive
+label. The label is assigned to the point or line assigned
+to represent the feature on maps.
+</attrdef>
+        <attrdefs>
+Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS;
+National Soil Survey Handbook, Title 430-VI, part 647
+(current issue), USDA, NRCS.
+</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>
+Classification and Correlation of the Soils of Salt Lake Area,
+Utah
+</codesetn>
+            <codesets>
+U.S. Department of Agriculture, Natural Resources
+Conservation Service
+</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>
+Map Unit Delineations are closed polygons that may be dominated
+by a single soil or miscellaneous area component plus allowable
+similar or dissimilar soils, or they can be geographic mixtures
+of groups of soils or soils and miscellaneous areas.
+
+The map unit symbol uniquely identifies each closed map unit
+delineation. Each symbol corresponds to a map unit name. The map
+unit key is used to link to information in the National Soil
+Information System tables.
+
+Map Unit Delineations are described by the National Soil
+Information System database. This attribute database gives the
+proportionate extent of the component soils and the properties for
+each soil. The database contains both estimated and measured data
+on the physical and chemical soil properties and soil
+interpretations for engineering, water management, recreation,
+agronomic, woodland, range, and wildlife uses of the soil.
+
+The National Soil Information System database contains static
+metadata. It documents the data structure and includes such
+information as what tables, columns, indexes, and relationships
+are defined as well as a variety of attributes of each of these
+database objects. Attributes include table and column
+descriptions and detailed domain information.
+
+The National Soil Information System database also contains a
+distribution metadata. It records the criteria used for selecting
+map units and components for inclusion in the set of distributed
+data.
+
+Special features are described in the feature table.  It includes
+an area symbol, feature label, feature name, and feature description
+for each special and ad hoc feature in the survey area.
+</eaover>
+      <eadetcit>
+Soil Taxonomy: A basic system of soil classification for making and
+interpreting soil surveys. Agricultural Handbook 436, 1999, USDA, SCS.
+
+Keys to Soil Taxonomy (current issue), USDA, SCS.
+
+National Soil Survey Handbook, Title 430-VI, part 647 (current
+issue), USDA, NRCS.
+
+Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.
+</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>
+U.S. Department of Agriculture,
+Natural Resources Conservation Service,
+National Geospatial Center of Excellence
+</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>501 West Felix Street, Building 23</address>
+          <city>Fort Worth</city>
+          <state>Texas</state>
+          <postal>76115</postal>
+        </cntaddr>
+        <cntvoice>800 672 5559</cntvoice>
+        <cnttdd>202 720 2600</cnttdd>
+        <cntfax>817 509 3469</cntfax>
+      </cntinfo>
+    </distrib>
+    <resdesc>Salt Lake Area, Utah SSURGO</resdesc>
+    <distliab>
+Although these data have been processed successfully on a computer
+system at the U.S. Department of Agriculture, no warranty expressed
+or implied is made by the Agency regarding the utility of the data
+on any other system, nor shall the act of distribution constitute
+any such warranty. The U.S. Department of Agriculture will warrant
+the delivery of this product in computer readable format, and will
+offer appropriate adjustment of credit when the product is determined
+unreadable by correctly adjusted computer input peripherals, or
+when the physical medium is delivered in damaged condition. Request
+for adjustment of credit must be made within 90 days from the date
+of this shipment from the ordering site.
+
+The U.S. Department of Agriculture, nor any of its agencies are
+liable for misuse of the data, for damage, for transmission of
+viruses, or for computer contamination through the distribution of
+these data sets. The U.S. Department of Agriculture (USDA) prohibits
+discrimination in all its programs and activities on the basis of race,
+color, national origin, sex, religion, age, disability, political
+beliefs, sexual orientation, or marital or family status. (Not all
+prohibited bases apply to all programs.)
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI shapefile</formname>
+          <formcont>spatial</formcont>
+          <transize>6.6</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>URL:http://DataGateway.nrcs.usda.gov/</networkr>
+              </networka>
+            </computer>
+            <accinstr>
+Select desired survey area at above Internet
+Web site. An email address is required for receipt of
+instructions on retrieval via anonymous FTP. Anticipate a
+delay between submission of request at Web site and receipt of
+email message.
+</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>
+There is currently no direct charge for requesting data or for
+retrieval via FTP.
+</fees>
+      <ordering>
+Visit the above mentioned Internet Web Site, select state or
+territory, then select individual soil survey area of interest.
+Spatial line data and locations of special feature symbols are in
+ESRI ArcGIS shapefile, format.
+The National Soil Information System attribute soil data are available
+in variable length, pipe delimited, ASCII file format.
+</ordering>
+      <turnarnd>Typically within four hours</turnarnd>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20141003</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Department of Agriculture, Natural Resources Conservation Service</cntorg>
+        </cntorgp>
+        <cntpos>State Soil Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>NRCS</address>
+          <address>Federal Building, Room 4010</address>
+          <address>125 South State</address>
+          <city>Salt Lake City</city>
+          <state>UT</state>
+          <postal>84138-1100</postal>
+        </cntaddr>
+        <cntvoice>801-524-4574</cntvoice>
+        <cnttdd>800-877-8339</cnttdd>
+        <cntfax>801-524-4403</cntfax>
+        <cntemail>Mike.Domeier@ut.usda.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

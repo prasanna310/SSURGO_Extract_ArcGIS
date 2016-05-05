@@ -1,0 +1,3 @@
+"PSME"|"Pseudotsuga menziesii"|"Douglas fir"|"10312899"|"18141771"
+"PIEN"|"Picea engelmannii"|"Engelmann spruce"|"10312899"|"18141772"
+"PSME"|"Pseudotsuga menziesii"|"Douglas fir"|"10312971"|"18141773"
