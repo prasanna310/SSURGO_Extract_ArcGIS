@@ -1,1 +1,0 @@
-"Country"|"US"|"United States"|2000000000||"General Soil Map of the US"|||250000|||||"15970"

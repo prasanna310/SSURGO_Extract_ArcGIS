@@ -1,0 +1,118 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: USDA/NRCS - National Geospatial Center of Excellence
+      Title: Digital General Soil Map of U.S.
+  Description:
+    Purpose: These data provide information about soil features on or near the 
+surface of the Earth. Data were collected as part of the National
+ Cooperative Soil Survey. These data are intended for geographic
+ display and analysis at the state, regional, and nati
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 2000 - Present
+  Status:
+    Progress: In Work
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -114.053
+      East_Bounding_Coordinate: -109.04106
+      North_Bounding_Coordinate: 42.00162
+      South_Bounding_Coordinate: 36.99791
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: Standard for Geospatial Dataset File Naming
+      Theme_Keyword: Soil Survey
+    Place:
+      Place_Keyword_Thesaurus: GNIS
+      Place_Keyword: Utah
+      Place_Keyword: *
+  Use_Constraints:
+
+    The U.S. Department of Agriculture, Service Center Agencies should be acknowledged as the data source in products derived from these data.
+
+    This data set is not designed for use as a primary regulatory tool in permitting or citing decisions, but may be used as a reference source.  This information may be interpreted by organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application.  Federal, State, or local regulatory bodies are not to reassign to the Service Center Agencies any authority for the decisions that they make.  The Service Center Agencies will not perform any evaluations of these data for purposes related solely to State or local regulatory programs.
+
+    Photographic or digital enlargement of these data to scales greater than at which they were originally mapped can cause misinterpretation of the data.  Digital data files are periodically updated, and users are responsible for obtaining the latest version of the data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: National Geospatial Center of Excellence
+      Contact_Address:
+        Address: 501 W. Felix St, Bldg 23
+        City: Fort Worth
+        State_or_Province: Texas
+        Postal_Code: 76115
+Data_Quality_Information:
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            USDA-NRCS-NCGC
+          Publication_Date: 2000 - Present
+          Title: Soil Survey Geographic (SSURGO II)
+      Source_Scale_Denominator: 250000
+    Process_Step:
+      Process_Description: Map unit composition was determined by transecting or 
+sampling areas on the more detailed soil maps and expanding 
+the data statistically to characterize the whole map unit.
+
+Soil map unit lines and symbols were drafted in red pencil
+on a mylar overlay that was punch registered to fit the mylar
+USGS 1:250,000-scale topographic quadrangle. A detailed and
+complete edit was performed on all overlays before digitizing.
+The soil delineation overlays were raster scanned at a
+scanning resolution of at least 0.01 inches and converted to
+a vector format or were manually digitized on a digitizing
+tablet with a resolution of at least 0.001 inches. Four
+control points corresponding to the four corners of the
+quadrangles were used for registration during data collection.
+The control points were either explicitly entered or developed
+by the software. The data sets were edge matched and merged
+into statewide coverages. A detailed and complete edit was
+performed on all digital data.
+
+State coverages were merged into a seamless national coverage.
+This reduced tabular data redundancy and polygon number. A detailed
+and complete edit was performed on all digital data.
+      Process_Date: 2000 - Present
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: 0.02
+      Longitude_Resolution: 0.02
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: World Geodetic System of 1984 (WGS84)
+      Ellipsoid_Name: WGS84
+      Semi-major_Axis: 6378137.0
+      Denominator_of_Flattening_Ratio: 298.257223563
+Entity_and_Attribute_Information:
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      Map Unit Delineations are closed polygons that are geographic
+mixtures of groups of soils or soils and nonsoil areas.
+
+The map unit key uniquely identifies each closed map unit
+delineation. Each map unit key is linked to a map unit symbol
+and a map u
+    Entity_and_Attribute_Detail_Citation: AREASYMBOL - A symbol that uniquely identifies a single occurrence of a particular type of area (e.g. Lancaster Co., Nebraska is NE109)
+MUSYM - The symbol used to uniquely identify the soil map unit in the soil survey.
+MUKEY -  A non-connotative string of characters used to uniquely identify a record in the Mapunit table.
+SPATIALVERSION - A sequential integer number used to denote the serial version of the spatial data for a soil survey area.
+Distribution_Information:
+  Distribution_Liability:
+
+    Although these data have been processed successfully on a computer system at the U.S. Department of Agriculture, no warranty expressed or implied is made by the Service Center Agencies regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty.  The U.S. Department of Agriculture will warrant the delivery of this product in computer readable format, and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition.  Request for adjustment of credit must be made within 90 days from the date of this shipment from the ordering site.
+
+    Neither the U.S. Department of Agriculture, nor any of its agencies are liable for misuse of the data, for damage, for transmission of viruses, or for computer contamination through the distribution of these data sets.  The U.S. Department of Agriculture prohibits discrimination in all its programs and activities on the basis of race, color, national origin, sex, religion, age, disability, political beliefs, sexual orientation, or marital or family status. (Not all prohibited bases apply to all programs.)
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI Shape file
+Metadata_Reference_Information:
+  Metadata_Date: 04/16/2016
+  Metadata_Standard_Name: SCI Minimum Compliance Metadata
+  Metadata_Standard_Version: SCI Std 003-02

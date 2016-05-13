@@ -26,10 +26,10 @@ subbasin= arcpy.GetParameterAsText(0)
 raster_folder = arcpy.GetParameterAsText(1)
 outGDB= arcpy.GetParameterAsText(2)
 
-if subbasin == "":
-    subbasin = r"C:\Users\WIN10-HOME\Dropbox\CLASSES\CEE6450 Hydrological Modeling\Project_cee6450\hechms_Prasanna_Sal_RBC\HECHMS_Projects\hecgeohms.gdb\Catchment"
-    raster_folder = r"E:\Research Data\00 Red Butte Creek\RBC_3\tif"
-    outGDB = r"E:\Research Data\00 Red Butte Creek\RBC_3\New File Geodatabase (2).gdb"
+# if subbasin == "":
+#     subbasin = r"C:\Users\WIN10-HOME\Dropbox\CLASSES\CEE6450 Hydrological Modeling\Project_cee6450\hechms_Prasanna_Sal_RBC\HECHMS_Projects\hecgeohms.gdb\Catchment"
+#     raster_folder = r"E:\Research Data\00 Red Butte Creek\RBC_3\tif"
+#     outGDB = r"E:\Research Data\00 Red Butte Creek\RBC_3\New File Geodatabase (2).gdb"
 
 # create a GDB if user does not specify
 if outGDB == "":
@@ -58,7 +58,7 @@ for aRaster_fullname in list_of_rasters:
 
     arcpy.AddMessage("%s and %s"%(raster_layer,table_name) )
 
-    arcpy.gp.ZonalStatisticsAsTable_sa(subbasin, "GridID", raster_layer, table_name , "DATA", "MEAN")
+    arcpy.gp.ZonalStatisticsAsTable_sa(subbasin, "OBJECTID", raster_layer, table_name , "DATA", "MEAN")
 
     arcpy.AddField_management(in_table=table_name, field_name=table_name, field_type="DOUBLE",
                               field_precision="", field_scale="", field_length="", field_alias="",
@@ -70,9 +70,9 @@ for aRaster_fullname in list_of_rasters:
 for aRaster_fullname in list_of_rasters:
     table_name = os.path.basename(aRaster_fullname).split(".")[0]
     arcpy.AddJoin_management(in_layer_or_view=subbasin,
-                             in_field="GridID",
+                             in_field="OBJECTID",
                              join_table=table_name,
-                             join_field="GridID", join_type="KEEP_ALL")
+                             join_field="OBJECTID", join_type="KEEP_ALL")
 
 
 arcpy.TableToExcel_conversion(Input_Table=subbasin,

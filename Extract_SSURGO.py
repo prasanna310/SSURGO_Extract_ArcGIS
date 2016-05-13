@@ -13,18 +13,15 @@ import pandas as pd
 import numpy as np
 import os
 
+path2collectionOfssurgoFolders = "SSURGO collection"
+lookupTable = os.path.join(os.getcwd(), "GREENAMPT_LOOKUPTABLE.csv")
+
 try:
     import arcpy
     path2collectionOfssurgoFolders = arcpy.GetParameterAsText(0)
     lookupTable = arcpy.GetParameterAsText(1)
 except Exception, e:
     print e
-
-if path2collectionOfssurgoFolders =="":
-	# Input a folder that has all the folders of names similar to  UT012, Ut027 etc.
-	path2collectionOfssurgoFolders = r"E:\Research Data\del_ssro"
-if lookupTable == "":
-	lookupTable = os.path.join(os.getcwd(), "GREENAMPT_LOOKUPTABLE.csv")
 
 
 def step3_merge_ssurgo(path2collectionOfssurgoFolders ,path2lookupTable=lookupTable ):
